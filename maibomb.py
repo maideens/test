@@ -2,8 +2,6 @@ from colorama import Fore, Style
 from time import sleep
 from os import system
 from sms import SendSms
-os.system('color')
-os.system('cls')
 
 servisler_sms = []
 for attribute in dir(SendSms):
